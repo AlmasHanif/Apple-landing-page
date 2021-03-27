@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar section */
+.navbar{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    z-index: 1;
+}
+.navbar .nav-links ul{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+.navbar .nav-links ul li{
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+
+}
+.navbar .nav-links ul li a{
+   padding: 40px;
+    color: white;
+    text-decoration: none;
+
+}
+
+/* navbar section */
+
+.covid-line {
+    /* margin: 20px; */
+    padding: 20px;
+    width: 100%;
+    height:50px;
+    background-color: rgb(74, 105, 197) ;
+}
+.covid-line p{
+    font-size: 20px;
+    margin: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+.text-one{
+    width: 100%;
+    /* height: 50px; */
+    padding: 20px;
+    background-color: lavender;
+}
+ .text-one p{
+    width: 100%;
+    /* height: 50px; */
+    text-align: center;
+    font-size: 20px;
+} 
+
+.heading h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+.heading h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: 30px;
+}
+.heading p{
+    text-align: center;
+    font-size: 20px;
+    color: lightslategray;
+    cursor: pointer;
+}
+.heading .learn{
+    color: blue;
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.slider img{
+    margin-left:auto ;
+    margin-right:auto ;
+    display: block;
+    text-align: center;
+    width: 80%;
+}
+
+div .slider-two{
+    width: 100%;
+    height: 660px;
+    background-color: black;
+}
+
+
+
+ .slider-two {
+  
+    width: 100%;
+    height: 25%; 
+    position: relative;
+    top: -320px;
+
+} 
+ .slider-two > img {
+     width: 1000px;
+     height: 300px;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+    display: block;
+    padding: 40px;
+ }
+
+ @media screen and (max-width: 600px) {
+    .slider-video {
+        position: relative;
+        top: 0;
+    }
+  }
+
+ .heading-two h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    color: cornsilk;
+    padding: 20px;
+    cursor: pointer;
+
+ }
+
+ .heading-two h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: 30px;
+    color: cornsilk;
+    cursor: pointer;
+ 
+}
+
+.heading-two p{
+    text-align: center;
+    font-size: 20px;
+    color: lightslategray;
+    cursor: pointer;
+    
+}
+
+.heading-two .learn{
+    color: rgb(95, 95, 231);
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+div .slider-three{
+    width: 100%;
+    height: 860px;
+    background-color: rgb(211, 209, 216);
+    top: -420px;
+    position: relative;
+   
+}
+   /* .card img{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    justify-content: center;
+} */
+
+.heading-three h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    color: black;
+    padding: 20px;
+    cursor: pointer;
+}
+.heading-three h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    
+    
+}
+.heading-three .learn{
+    color: rgb(95, 95, 231);
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+ .slider-three img{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    bottom: 10px; 
+}
+
+div .slider-four{
+    width: 100%;
+    height: 660px;
+    top: -450px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.heading-four h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    color: black;
+    padding: 20px;
+    cursor: pointer;
+
+}
+.heading-four h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+
+}
+
+.heading-four .learn{
+
+    color: rgb(95, 95, 231);
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+.slider-four img{
+    width: 800px;
+    height: 400px;
+    padding-top: 10px;
+    
+}
+.heading-four-b{
+    background-color:black;
+    width: 100%;
+    height: 660px;
+    position: relative;
+   top: 50px;
+
+}
+.heading-four-b h1{
+    color: cornsilk;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    padding: 20px;
+    cursor: pointer;
+
+}
+
+.series{
+    text-align: center;
+    color: rgb(202, 41, 41);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+.heading-four-b h6{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    color:cornsilk;
+    cursor: pointer;
+    font-weight: 10px;
+
+}
+
+.heading-four-b .learn{
+    color: rgb(95, 95, 231);
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.heading-four-b img{
+    height: 300px;
+    width: 400px;
+   margin-left: auto;
+   margin-right: auto;
+    display: block;
+}
+div .slider-five{
+    width: 100%;
+    height: 660px;
+    top: -430px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.heading-five{
+    background-color:black;
+    width: 50%;
+    height: 660px;
+    position: relative;
+   top: 50px;
+
+}
+.heading-five h1{
+    color: cornsilk;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 5px;
+
+}
+.heading-five h4{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    color:cornsilk;
+    cursor: pointer;
+    font-weight: 10px;
+   
+}
+.heading-five .learn{
+    color: rgb(95, 95, 231);
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.heading-five img{
+    width: 500px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.heading-five-b h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 5px;
+   
+}
+.heading-five-b p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    color:black;
+    cursor: pointer;
+    font-weight: 10px;
+
+}
+.heading-five-b .learn{
+    color: rgb(95, 95, 231);
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.heading-five-b img{
+    width: 700px;
+
+}
+
+div .slider-six{
+    width: 100%;
+    height: 660px;
+    top: -400px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.heading-six h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 5px;
+}
+
+.heading-six h6{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    color:black;
+    cursor: pointer;
+    font-weight: 10px;
+}
+
+.heading-six .learn{
+    color: rgb(95, 95, 231);
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.heading-six img{
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: 150px;
+}
+.heading-six-b{
+    background-color:black;
+    width: 50%;
+    height: 660px;
+    position: relative;
+   top: 40px;
+
+}
+.heading-six-b h1{
+    color: cornsilk;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: 5px;
+
+}
+.heading-six-b img{
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.footer {
+    background-color: rgb(206, 206, 206);
+    width: 100%;
+    position: relative;
+    top: -280px;
+}
+.footer-wording{
+   
+}
+.footer-wording p{
+    padding: 20px 10% ;
+    
+}
+hr {
+    margin: 0 10%;
+    height: 3px;
+    background-color: white;
+}
+.footer-list{
+    display: flex;
+    padding: 20px 10% ;
+    justify-content: space-evenly
+
+}
+.footer-list li{
+   list-style: none;
+   line-height: 25px;
+
+
+}
